@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Главная</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+      <script src="jquery-2.2.1.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="jquery.maskedinput.js"></script>
+   </head>
+   <body>
+      <!--modal window-->
+      <div class="modal" id="modal-1">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="row">
+                  <div class="col-xs-12 col-md-10 col-md-offset-1">
+                     <div class="modal-body">
+                        <h4 class="modal-title">Оставить заявку на тур</h4>
+                        <form role="form">
+                           <div class="form-group">
+                              <label for="name">Ваше имя:</label>
+                              <input type="text" class="form-control" id="name" placeholder="Кристина Путешественница"  pattern="[a-zA-Z-\s]+">
+                           </div>
+                           <div class="form-group">
+                              <label for="phone">Ваш номер телефона:</label>
+                              <input type="tel" name="phone" id="phone" class="form-control bfh-phone" placeholder="+7 (___) ___-__-__" />
+                           </div>
+                           <div class="form-group">
+                              <label for="list">Количество взрослых:</label>
+                              <select class="form-control" id="list">
+                                 <option>1 человек</option>
+                                 <option>2 человека</option>
+                                 <option>3 человека</option>
+                                 <option>4 человека</option>
+                              </select>
+                              <br />
+                           </div>
+                           <button type="submit" class="btn btn-info btn-block">Отправить</button>
+                        </form>
+                        <br />
+                        <p class="text-left">Наш менеджер свяжется с Вами в течении 30 минут
+                        <p>
+                     </div>
+                  </div>
+                  <!--end col-md-10 col-md-offset-1-->
+               </div>
+               <!--end row-->
+            </div>
+         </div>
+      </div>
+      <!-- END MODAL WINDOW-->
+      <div class="row">
+         <div class="col-xs-12 col-md-10 col-md-offset-2">
+            <div class="topic">
+               <h1><b>Премиум:</b> <span>лучшие туры в Малайзию</span></h1>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-xs-12 col-md-3 col-lg-3">
+            <div class="booking-window">
+               <img src="img/bg_top.png" alt="изображение" />
+               <div class="travel-info">
+                  <p class="place">Куала-Лумпур</p>
+                  <br />
+                  <p class="info">Отель:</p>
+                  <p class="hotel_time">Awana Kijalawana Kijal 5*</p>
+                  <p class="info">Вылет:</p>
+                  <p class="hotel_time">11.07 из Алматы</p>
+                  <p class="price">Цена $2166</p>
+                  <p class="price_night">за 9 ночей на 1 человека</p>
+                  <button type="button" class="btn btn-primary btn-lg btn-block" id="booking_but1">ЗАБРОНИРОВАТЬ</button>
+               </div>
+               <!--end travel-info-->
+            </div>
+         </div>
+         <!--end col-xs-12 col-md-3 col-lg-3-->
+         <div class="col-xs-12 col-md-3 col-lg-3">
+            <div class="booking-window">
+               <img src="img/bg_top.png" alt="изображение" />
+               <div class="travel-info">
+                  <p class="place">о. Борнео</p>
+                  <br />
+                  <p class="info">Отель:</p>
+                  <p class="hotel_time">Awana Kijalawana Kijal 5*</p>
+                  <p class="info">Вылет:</p>
+                  <p class="hotel_time">11.07 из Алматы</p>
+                  <p class="price">Цена $2166</p>
+                  <p class="price_night">за 9 ночей на 1 человека</p>
+                  <button type="button" class="btn btn-primary btn-lg btn-block" id="booking_but2">ЗАБРОНИРОВАТЬ</button>
+               </div>
+               <!--end travel-info-->
+            </div>
+         </div>
+         <!--end col-xs-12 col-md-3 col-lg-3-->
+         <div class="col-xs-12 col-md-3 col-lg-3">
+            <div class="booking-window">
+               <img src="img/bg_top.png" alt="изображение" />
+               <div class="travel-info">
+                  <p class="place">Пангкор Лаут</p>
+                  <br />
+                  <p class="info">Отель:</p>
+                  <p class="hotel_time">Awana Kijalawana Kijal 5*</p>
+                  <p class="info">Вылет:</p>
+                  <p class="hotel_time">11.07 из Алматы</p>
+                  <p class="price">Цена $2166</p>
+                  <p class="price_night">за 9 ночей на 1 человека</p>
+                  <button type="button" class="btn btn-primary btn-lg btn-block" id="booking_but3">ЗАБРОНИРОВАТЬ</button>
+               </div>
+               <!--end travel-info-->
+            </div>
+         </div>
+         <!--end col-xs-12 col-md-3 col-lg-3-->
+         <div class="col-xs-12 col-md-3 col-lg-3">
+            <div class="booking-window">
+               <img src="img/bg_top.png" alt="изображение" />
+               <div class="travel-info">
+                  <p class="place">Таман Негара</p>
+                  <br />
+                  <p class="info">Отель:</p>
+                  <p class="hotel_time">Awana Kijalawana Kijal 5*</p>
+                  <p class="info">Вылет:</p>
+                  <p class="hotel_time">11.07 из Алматы</p>
+                  <p class="price">Цена $2166</p>
+                  <p class="price_night">за 9 ночей на 1 человека</p>
+                  <button type="button" class="btn btn-primary btn-lg btn-block" id="booking_but4">ЗАБРОНИРОВАТЬ</button>
+               </div>
+               <!--end travel-info-->
+            </div>
+         </div>
+         <!--end col-xs-12 col-md-3 col-lg-3-->
+      </div>
+      <!--end row-->
+      <script>
+         $(document).ready(function(){
+           
+           $(".btn").click(function() {
+            
+             $("#modal-1").modal('show');
+           });
+         });
+         
+      </script>
+      <script>
+         jQuery(function($){
+         $("#phone").mask("+7(999) 9999-99-99");
+         });
+      </script>
+   </body>
+</html>
