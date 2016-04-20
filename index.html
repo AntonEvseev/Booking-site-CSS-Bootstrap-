@@ -13,42 +13,44 @@
    </head>
    <body>
       <!--modal window-->
-      <div class="modal" id="modal-1">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="row">
-                  <div class="col-xs-12 col-md-10 col-md-offset-1">
-                     <div class="modal-body">
-                        <h4 class="modal-title">Оставить заявку на тур</h4>
-                        <form role="form">
-                           <div class="form-group">
-                              <label for="name">Ваше имя:</label>
-                              <input type="text" class="form-control" id="name" placeholder="Кристина Путешественница"  pattern="[A-Za-zА-Яа-яЁё-\s]+">
-                           </div>
-                           <div class="form-group">
-                              <label for="phone">Ваш номер телефона:</label>
-                              <input type="tel" name="phone" id="phone" class="form-control bfh-phone" placeholder="+7 (___) ___-__-__" />
-                           </div>
-                           <div class="form-group">
-                              <label for="list">Количество взрослых:</label>
-                              <select class="form-control" id="list">
-                                 <option>1 человек</option>
-                                 <option>2 человека</option>
-                                 <option>3 человека</option>
-                                 <option>4 человека</option>
-                              </select>
-                              <br />
-                           </div>
-                           <button type="submit" class="btn btn-info btn-block">Отправить</button>
-                        </form>
-                        <br />
-                        <p class="text-left">Наш менеджер свяжется с Вами в течении 30 минут
-                        <p>
+      <div class="container">
+         <div class="modal" id="modal-1">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="row">
+                     <div class="col-xs-12 col-md-10 col-md-offset-1">
+                        <div class="modal-body">
+                           <h4 class="modal-title">Оставить заявку на тур</h4>
+                           <form role="form">
+                              <div class="form-group">
+                                 <label for="name">Ваше имя:</label>
+                                 <input type="text" class="form-control" id="name" placeholder="Кристина Путешественница"  pattern="[A-Za-zА-Яа-яЁё-\s]+" required>
+                              </div>
+                              <div class="form-group">
+                                 <label for="phone">Ваш номер телефона:</label>
+                                 <input type="tel" name="phone" id="phone" class="form-control bfh-phone" placeholder="+7 (___) ___-__-__" required />
+                              </div>
+                              <div class="form-group">
+                                 <label for="list">Количество взрослых:</label>
+                                 <select class="form-control" id="list">
+                                    <option>1 человек</option>
+                                    <option>2 человека</option>
+                                    <option>3 человека</option>
+                                    <option>4 человека</option>
+                                 </select>
+                                 <br />
+                              </div>
+                              <button type="submit" class="btn btn-info btn-block">Отправить</button>
+                           </form>
+                           <br />
+                           <p class="text-left">Наш менеджер свяжется с Вами в течении 30 минут
+                           <p>
+                        </div>
                      </div>
+                     <!--end col-md-10 col-md-offset-1-->
                   </div>
-                  <!--end col-md-10 col-md-offset-1-->
+                  <!--end row-->
                </div>
-               <!--end row-->
             </div>
          </div>
       </div>
