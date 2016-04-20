@@ -11,7 +11,6 @@ width: 270px;
 height: 379px;
 background-image:   url(img/bg_white.png), url(img/bg_snow.png), url(img/bg_blue.png) ;
 float: left;
-margin-left: 30px;
 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 background-position:   50% -60%, top right 50% ;
 }
